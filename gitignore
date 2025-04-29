@@ -1,0 +1,43 @@
+# .gitignore para proyectos en Google Colab y Windows 11
+
+# Archivos temporales de Google Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb~  # Backups
+
+# Archivos del sistema operativo (Windows)
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+.DS_Store
+*.lnk
+
+# Archivos temporales comunes
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Entornos virtuales (si se usan localmente)
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# Archivos de configuración personal
+*.env
+*.env.*
+config.json
+token.txt
+
+# Carpetas de salida comunes
+__pycache__/
+build/
+dist/
+*.egg-info/
+
+# Archivos específicos de Colab con Drive
+drive/MyDrive/
